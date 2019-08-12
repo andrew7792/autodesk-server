@@ -2,10 +2,10 @@ import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 
-import oauth from "./routes/oauth";
-import oss from "./routes/oss";
-import modelderivative from "./routes/modelderivative";
-import { port, originURL } from "./utils/config";
+import oauth from "./src/routes/oauth";
+import oss from "./src/routes/oss";
+import modelderivative from "./src/routes/modelderivative";
+import { port, originURL } from "./src/utils/config";
 
 const app = express();
 
